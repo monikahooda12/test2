@@ -80,7 +80,7 @@ console.log("called 2");
   return (
     <div><h1 className= "flex items-center place-content-center leading-10">tik tak</h1>
     <div className="flex items-center place-content-center py-16">
-    
+
       {(winner === "o" || winner === "x") && (
         <h1 className="text-2xl mt-4">Winner : {winner}</h1>
       )}
